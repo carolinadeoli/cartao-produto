@@ -1,35 +1,68 @@
 *{
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 0px;
+    margin:0px;
     
 }
 
+main{
+    position: relative;
+    height:100vh;
+    width:100vw;
+    background-color: rgb(250, 236, 216);
+}
 section#box{
     position: absolute;
     top: 50%;
     left:50%;
     background-color: white;
-    width:265px;
-    height:520px;
-    float:left;
-    border-radius: 20px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
-    transform: translate(-30%, -50%);
+    width:290px;
+    height:580px;
+    overflow: hidden;
+    border-radius: 16px;
+    transform: translate(-50%, -50%);
 }
 section#box > div#image{
     display:block;
-    background: url(../cartao-produto/images/image-product-desktop.jpg) no-repeat;
-    background-size: cover;
-    background-position: left;
+    background: url(../cartao-produto/images/image-product-mobile.jpg) no-repeat;
+    background-size:cover;
     height:200px;
+    
     
 }
 div#text >h1{
+    padding:15px;
     font-size:15px;
     color: gray;
+    
 
 }
 
 div#text >h2{
+    padding:15px;
     font-size: 30px;
     color:black;
+}
+
+div#text >p {
+    padding:15px;
+}
+
+div#text >p#price1{
+    font-weight:bolder;
+    font-size: 25px;
+    color:rgb(10, 114, 10)
+}
+
+div#text >p#price2{ 
+    text-align: right;
+    text-decoration: line-through;
+
+}
+
+button{
+    align-items: center;
+    padding-right: 30px;
+    padding-bottom: 50px;
+    background-color: green;
 }
