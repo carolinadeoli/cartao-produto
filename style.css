@@ -16,8 +16,8 @@ section#box{
     top: 50%;
     left:50%;
     background-color: white;
-    width:290px;
-    height:580px;
+    width:300px;
+    height:610px;
     overflow: hidden;
     border-radius: 16px;
     transform: translate(-50%, -50%);
@@ -57,12 +57,18 @@ div#text >p#price1{
 div#text >p#price2{ 
     text-align: right;
     text-decoration: line-through;
+    
 
 }
 
 button{
-    align-items: center;
-    padding-right: 30px;
-    padding-bottom: 50px;
+    
+    font-size:1em;
+    width:90%;
+    height:40px;
+    border:none;
+    border-radius:10px;
+    color:white;
     background-color: green;
+    margin:0px 100px 100px 10px;
 }
