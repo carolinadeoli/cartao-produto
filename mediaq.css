@@ -1,0 +1,82 @@
+@media screen and (min-width:768px) and (max-width:992px){
+    
+    
+    section#box{
+        float:right;
+        width:75%;
+        height:480px;
+        
+    }
+    section#box > div#image{
+        float:left;
+        background: url(../cartao-produto/images/image-product-desktop.jpg) no-repeat;
+        width:50%;
+        height: 100%;
+        background-size: cover;
+        
+    }
+    div#text >h1{
+        margin:40px 40px 20px 10px;
+        font-size:14px;
+        color: rgb(78, 78, 78);
+        font-weight: 300;
+        letter-spacing: 5px;
+        text-align:center;
+        
+    
+    }
+    
+    div#text >h2{
+        margin:20px 40px 20px 10px;
+        font-size: 30px;
+        color:black;
+        font-weight: 900;
+        text-align: center;
+        
+    }
+    
+    div#text >p {
+        padding:10px;
+        font-size:16px;
+        font-weight: 300;
+        color: black;
+        text-align:justify;
+        
+    }
+    
+    div#text >p#price1{
+        font-weight:bolder;
+        font-size: 30px;
+        color: #0C784D;
+        margin:0px 150px 0px 200px;
+        text-align:center;
+    }
+    
+    div#text >p#price2{ 
+        text-decoration: line-through;
+        text-align: right;
+        margin:0px 20px 0px 0px;
+        transform: translate(-13%,-140%);
+        font-size: 16px;
+          
+    }
+          
+    button{
+    
+        font-size:1.0em;
+        width:40%;
+        height:50px;
+        border:none;
+        border-radius:10px;
+        color:white;
+        background-color: #0C784D;
+        position: absolute;
+        font-weight: 600;
+        top:50%;
+        margin-top:150px;
+        margin-left:44px;
+        
+        
+    }    
+}
+    

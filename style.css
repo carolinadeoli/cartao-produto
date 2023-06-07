@@ -3,7 +3,7 @@
     font-family: 'Fira Sans', sans-serif;
     padding: 0px;
     margin:0px;
-    
+    box-sizing: border-box;
 }
 
 main{
@@ -28,7 +28,8 @@ section#box > div#image{
     background: url(../cartao-produto/images/image-product-mobile.jpg) no-repeat;
     background-size:cover;
     height:200px;
-    
+    transition: width .3s, height .3s;
+    transition-timing-function: ease;
     
 }
 div#text >h1{
@@ -84,4 +85,6 @@ button{
     background-color: #0C784D;
     margin:0px 100px 100px 10px;
     font-weight: 600;
+   
+    
 }
